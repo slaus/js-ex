@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px) {
+  .header {
+    background: #f4b60d url(../img/header.png) center top no-repeat;
+    text-align: center;
+    height: 700px;
+    position: relative;
+    height: 540px;
+    background-size: cover; } }
+@media screen and (max-width: 480px) {
+  .header .button {
+    position: absolute;
+    margin-left: -13px;
+    top: 20px;
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-top: 0; } }
+.header .button__signup {
+  color: #ff4e50 !important;
+  border: 1px solid #ff4e50 !important;
+  background-color: #fff; }
+  .header .button__signup:hover {
+    color: #fff !important; }
+@media screen and (max-width: 480px) {
+  .header .logo {
+    position: absolute;
+    top: 125px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 0; } }
+
+/* slider */
+.slider__block-last {
+  margin-right: 0; }
+
+/* partners */
+.partners__block {
+  display: inline-table; }
+
+/* masonry */
+@media screen and (max-width: 480px) {
+  .grid-item {
+    margin-bottom: 10px;
+    margin-right: 0;
+    width: 100%;
+    height: 120px; } }
+@media screen and (max-width: 480px) {
+  .grid-item--width2 {
+    margin-bottom: 10px;
+    margin-right: 0;
+    width: 100%;
+    height: 120px; } }
+@media screen and (max-width: 480px) {
+  .grid__image {
+    margin-right: 10px;
+    height: 120px; } }
+@media screen and (max-width: 480px) {
+  .grid__image--width2 {
+    margin-right: 10px;
+    height: 120px; } }
+
+/*# sourceMappingURL=ie-8.css.map */

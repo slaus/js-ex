@@ -1,0 +1,122 @@
+$white:         #fff;
+$pink:          #ff4e50;
+$gold:          #f4b60d;
+
+.header {
+
+  @media screen and (max-width: 480px) {
+    background: $gold url(../img/header.png) center top no-repeat;
+    text-align: center;
+    height: 700px;
+    position: relative;
+    height: 540px;
+    background-size: cover;
+  }
+
+  .button {
+
+    @media screen and (max-width: 480px) {
+     position: absolute;
+     margin-left: -13px;
+     top: 20px;
+     display: block;
+     width: 100%;
+     padding-right: 0;
+     padding-top: 0;
+    }
+
+    &__signup {
+     color: $pink !important;
+     border: 1px solid $pink !important;
+     background-color: $white;
+
+      &:hover {
+        color: $white !important;
+      }
+
+   }
+
+  }
+
+  .logo {
+
+    @media screen and (max-width: 480px) {
+      position: absolute;
+      top: 125px;
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding-left: 0;
+    }
+
+  }
+
+}
+
+/* slider */
+.slider {
+
+  &__block {
+
+    &-last {
+      margin-right: 0;
+    }
+
+  }
+
+}
+
+/* partners */
+.partners {
+
+  &__block {
+    display: inline-table;
+  }
+
+}
+
+/* masonry */
+.grid {
+
+  &-item {
+
+    @media screen and (max-width: 480px) {
+      margin-bottom: 10px;
+      margin-right: 0;
+      width: 100%;
+      height: 120px;
+    }
+
+    &--width2 {
+
+      @media screen and (max-width: 480px) {
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%;
+        height: 120px;
+
+      }
+
+    }
+
+  }
+
+  &__image {
+
+    @media screen and (max-width: 480px) {
+      margin-right: 10px;
+      height: 120px;
+    }
+
+    &--width2 {
+
+      @media screen and (max-width: 480px) {
+        margin-right: 10px;
+        height: 120px;
+      }
+
+    }
+
+  }
+
+}

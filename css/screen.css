@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto; } }
+@media screen and (max-width: 320px) {
+  html {
+    -webkit-text-size-adjust: none; }
+
+  .wrapper {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=screen.css.map */

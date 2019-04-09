@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <title>Exam</title>
+  <script src="js/jquery-1.12.4.min.js"></script>
+<!--[if !IE]>
+  <script src="js/masonry.pkgd.min.js"></script>
+<![endif]-->
+<!--[if IE]>
+  <script src="js/jquery.masonry.min.js"></script>
+<![endif]-->
+  <script src="js/jquery.jcarousel.min.js"></script>
+  <script src="js/data.img.min.js"></script>
+  <script src="js/jquery.animate.colors.min.js"></script>
+  <script src="js/tmpl.min.js"></script>
+  <script src="js/script.min.js"></script>
+  <link href="css/style.min.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="css/ie-8.min.css" type="text/css" media="screen, projection" />
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/css3-mediaqueries.min.js"></script>
+  <script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('main');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+  </script>
+<![endif]-->
+</head>
+<body>
+  <header class="header clearfix">
+    <div class="wrapper">
+      <div class="logo">
+        <a class="header__logo-link" href="#" title="URLAUBSGLÜCK">URLAUBSGLÜCK</a>
+      </div>
+      <div class="button">
+        <a href="#" class="button__login" title="Log In">Log In</a>
+        <a href="#" class="button__signup button-white" title="Sign up">Sign up</a>
+      </div>
+      <h1 class="header__title">Share your<br>holiday dreams</h1>
+      <p class="header__text">And find the perfect partner to fullfill it</p>
+      <button class="header__button button-pink">Find your holiday partner</button>
+    </div>
+  </header>
+  <div class="wrapper">
+    <section class="slider clearfix">
+      <h2 class="slider__title">How Urlaubsglück works?</h2>
+      <div class="slider__block">
+        <div class="jcarousel">
+          <ul>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-01-03.png" data-med="img/slider-01-02.png" data-lrg="img/slider-01-01.png" alt="Sed leo enim, condimentum" />
+              <a href="#" class="slide__step button-pink">step 1</a>
+              <h3 class="slide__header">Sed leo enim,<br>condimentum</h3>
+              <p class="slide__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+            </li>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-02-03.png" data-med="img/slider-02-02.png" data-lrg="img/slider-02-01.png" alt="Morbi velit risus" />
+              <a href="#" class="slide__step slide__step-second button-pink">step 2</a>
+              <h3 class="slide__header">Morbi velit risus</h3>
+              <p class="slide__description">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+            </li>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-03-03.png" data-med="img/slider-03-02.png" data-lrg="img/slider-03-01.png" alt="Sed leo enim" />
+              <a href="#" class="slide__step button-pink">step 3</a>
+              <h3 class="slide__header">Sed leo enim,<br>condimentum</h3>
+              <p class="slide__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+            </li>
+          </ul>
+          <a class="jcarousel-prev" href="#"><img src="img/arrow-left.png" alt="Prev" class="slider__arrow-left"></a>
+          <a class="jcarousel-next" href="#"><img src="img/arrow-right.png" alt="Next" class="slider__arrow-right"></a>
+        </div>
+      </div>
+      <div class="slider__block">
+        <div class="jcarousel">
+          <ul>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-02-03.png" data-med="img/slider-02-02.png" data-lrg="img/slider-02-01.png" alt="Morbi velit risus" />
+              <a href="#" class="slide__step slide__step-second button-pink">step 2</a>
+              <h3 class="slide__header">Morbi velit risus</h3>
+              <p class="slide__description">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+            </li>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-03-03.png" data-med="img/slider-03-02.png" data-lrg="img/slider-03-01.png" alt="Sed leo enim" />
+              <a href="#" class="slide__step button-pink">step 3</a>
+              <h3 class="slide__header">Sed leo enim,<br>condimentum</h3>
+              <p class="slide__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+            </li>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-01-03.png" data-med="img/slider-01-02.png" data-lrg="img/slider-01-01.png" alt="Sed leo enim, condimentum" />
+              <a href="#" class="slide__step button-pink">step 1</a>
+              <h3 class="slide__header">Sed leo enim,<br>condimentum</h3>
+              <p class="slide__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+            </li>
+          </ul>
+          <a class="jcarousel-prev" href="#"><img src="img/arrow-left.png" alt="Prev" class="sliders__arrow-left"></a>
+          <a class="jcarousel-next" href="#"><img src="img/arrow-right.png" alt="Next" class="sliders__arrow-right"></a>
+        </div>
+      </div>
+      <div class="slider__block slider__block-last">
+        <div class="jcarousel">
+          <ul>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-03-03.png" data-med="img/slider-03-02.png" data-lrg="img/slider-03-01.png" alt="Sed leo enim" />
+              <a href="#" class="slide__step button-pink">step 3</a>
+              <h3 class="slide__header">Sed leo enim,<br>condimentum</h3>
+              <p class="slide__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+            </li>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-01-03.png" data-med="img/slider-01-02.png" data-lrg="img/slider-01-01.png" alt="Sed leo enim, condimentum" />
+              <a href="#" class="slide__step button-pink">step 1</a>
+              <h3 class="slide__header">Sed leo enim,<br>condimentum</h3>
+              <p class="slide__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+            </li>
+            <li class="slider__jcarousel-block slide jcarousel__item">
+              <img class="slider__img data-img" src="http://placehold.it/1x1" data-sml="img/slider-02-03.png" data-med="img/slider-02-02.png" data-lrg="img/slider-02-01.png" alt="Morbi velit risus" />
+              <a href="#" class="slide__step slide__step-second button-pink">step 2</a>
+              <h3 class="slide__header">Morbi velit risus</h3>
+              <p class="slide__description">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+            </li>
+          </ul>
+          <a class="jcarousel-prev" href="#"><img src="img/arrow-left.png" alt="Prev" class="sliders__arrow-left"></a>
+          <a class="jcarousel-next" href="#"><img src="img/arrow-right.png" alt="Next" class="sliders__arrow-right"></a>
+        </div>
+      </div>
+    </section>
+    <section class="partners clearfix">
+      <h2 class="partners__title">Meet a partner for your best holiday</h2>
+      <div class="partners__block photo-1">
+        <a href="#" class="partners__link">
+          <div class="partners__link-photo"></div>
+        </a>
+        <h3 class="partners__name">Bradley Hunter</h3>
+        <h4 class="partners__description">Based in Chicago. I love playing tennis and loud music.</h4>
+      </div>
+      <div class="partners__block photo-2">
+        <a href="#" class="partners__link">
+          <div class="partners__link-photo"></div>
+        </a>
+        <h3 class="partners__name">Heather Walker</h3>
+        <h4 class="partners__description">I'm a happy person that loves cats and climbing on mountains.</h4>
+      </div>
+      <div class="partners__block photo-3">
+        <a href="#" class="partners__link">
+          <div class="partners__link-photo"></div>
+        </a>
+        <h3 class="partners__name">Lucas Marsha</h3>
+        <h4 class="partners__description">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
+        </h4>
+      </div>
+      <div class="partners__block photo-4">
+        <a href="#" class="partners__link">
+          <div class="partners__link-photo"></div>
+        </a>
+        <h3 class="partners__name">Bradley Hunter</h3>
+        <h4 class="partners__description">Based in Chicago. I love playing tennis and loud music.</h4>
+      </div>
+      <button class="partners__button button-invert">See other partners</button>
+    </section>
+    <section class="gallery clearfix">
+      <h2 class="gallery__title">Discover holiday activity ideas</h2>
+      <div class="gallery__images"></div>
+      <h2 class="gallery__title">Discover holiday activity ideas</h2>
+      <p class="gallery__text">Hi! What are your holiday interests?</p>
+      <form action="" class="gallery__form" method="post">
+        <input type="text" name="gallery__input" class="gallery__input" placeholder="Enter your interests" />
+        <button type="submit" class="gallery__submit button-pink">Search partners</button>
+      </form>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="wrapper clearfix">
+      <h1 class="footer__header-title">URLAUBSGLÜCK</h1>
+      <div class="footer__company">
+        <h2 class="footer__header">Company</h2>
+        <ul class="footer__menu">
+          <li class="footer__menu-item"> <a href="#" class="footer__link">About</a> </li>
+          <li class="footer__menu-item"> <a href="#" class="footer__link">Contacts</a> </li>
+          <li class="footer__menu-item"> <a href="#" class="footer__link">Press</a> </li>
+          <li class="footer__menu-item"> <a href="#" class="footer__link">Blog</a> </li>
+        </ul>
+      </div>
+      <div class="footer__partners">
+        <h2 class="footer__header">Partners</h2>
+      </div>
+      <div class="footer__logo">
+        <h3 class="footer__header-text">DESIGNED BY</h3>
+        <img src="img/logo.png" alt="Areto Development" class="footer__img">
+      </div>
+    </div>
+  </footer>
+  <script type="text/tmpl" id="tmpl">
+    <div class="grid cards">
+      <div class="grid-item card">
+        <div class="grid__image" style="background-image:url(<%= hits[0].webformatURL %>);"></div>
+        <h3 class="grid__title"><%=hits[0].tags %></h3>
+      </div>
+      <div class="grid-item card">
+        <div class="grid__image" style="background-image:url(<%= hits[1].webformatURL %>);"></div>
+        <h3 class="grid__title"><%=hits[1].tags %></h3>
+      </div>
+      <div class="grid-item card">
+        <div class="grid__image" style="background-image:url(<%= hits[2].webformatURL %>);"></div>
+        <h3 class="grid__title"><%=hits[2].tags %></h3>
+      </div>
+      <div class="grid-item card">
+        <div class="grid__image" style="background-image:url(<%= hits[3].webformatURL %>);"></div>
+        <h3 class="grid__title"><%=hits[3].tags %></h3>
+      </div>
+      <div class="grid-item card grid-item--width2">
+        <div class="grid__image grid__image--width2" style="background-image:url(<%= hits[4].webformatURL %>);"></div>
+        <h3 class="grid__title"><%=hits[4].tags %></h3>
+      </div>
+      <div class="grid-item card grid-item--width2">
+        <div class="grid__image grid__image--width2" style="background-image:url(<%= hits[5].webformatURL %>);"></div>
+        <h3 class="grid__title"><%=hits[5].tags %></h3>
+      </div>
+      <div class="grid-item card">
+        <div class="grid__image" style="background-image:url(<%= hits[6].webformatURL %>);"></div>
+        <h3 class="grid__title"><%=hits[6].tags %></h3>
+      </div>
+    </div>
+  </script>
+</body>
+</html>
